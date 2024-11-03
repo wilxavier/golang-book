@@ -8,7 +8,6 @@ A maioria dos instaladores Linux e BSD são arquivos *gzipped* TAR e se expandem
 #### Instalação
 > $ tar -C /usr/local -xzf go1.20.5.linux-amd64.tar.gz\
 > $ echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.bash_profile\
-> $ source $HOME/.bash_profile\
 > $ source $HOME/.bash_profile
 
 Você precisará de permissões de administrador para escrever em */usr/local*. Se o comando *tar* falhar execute-o novamente utilizando o comando:
